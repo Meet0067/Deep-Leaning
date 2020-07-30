@@ -1,0 +1,70 @@
+1) for learning rate 0.01 and thresold =5
+--------------------
+
+Weights Before  training [0. 0. 0.]
+
+Weights After 0 iteration[-0.01  0.    0.  ]
+
+Weights After 1 iteration[-0.01  0.01  0.  ]
+
+Weights After 2 iteration[-0.02  0.01  0.  ]
+
+Weights After 3 iteration[-0.02  0.01  0.01]
+
+Weights After 4 iteration[-0.02  0.02  0.01]
+
+Weights after  training [-0.02  0.02  0.01]
+-------------------------------------------------------------------
+
+2)for learning rate 1 and thresold =5
+--------------------
+
+Weights Before  training [0. 0. 0.]
+
+Weights After 0 iteration[-1.  0.  0.]
+
+Weights After 1 iteration[-1.  1.  0.]
+
+Weights After 2 iteration[-2.  1.  0.]
+
+Weights After 3 iteration[-2.  1.  1.]
+
+Weights After 4 iteration[-2.  2.  1.]
+
+Weights after  training [-2.  2.  1.]
+-------------------------------------------------------------------
+
+3)for learning rate 100 and thresold =5
+--------------------
+Weights Before  training [0. 0. 0.]
+
+Weights After 0 iteration[-100.    0.    0.]
+
+Weights After 1 iteration[-100.  100.    0.]
+
+Weights After 2 iteration[-200.  100.    0.]
+
+Weights After 3 iteration[-200.  100.  100.]
+
+Weights After 4 iteration[-200.  200.  100.]
+
+Weights after  training [-200.  200.  100.]
+----------------------------------------------------------------------------------------------------------
+
+:) after epoch number 5 weights are stable and pedict correct number each time
+    
+:) so when the threshold is less than 5 we get wrong answer and in greater than 5 threshold
+    we get right prediction
+    
+-->and for learning rate:
+        i think learning rate is not give much impact in weights and bias as threshold
+        
+        beacuse in any learning rate  we get right answer after threshold 
+        
+        beacuse weights are only multiply by different learning rate as applied.
+
+        we can see that at lr=0.01 weights is [-0.02 0.01 0.02]
+
+        we can see that at lr=1 weights is [-2 1 2]
+
+        we can see that at lr=100 weights is [-200 200 100]
