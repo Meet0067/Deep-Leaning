@@ -1,0 +1,40 @@
+Non linear dataset of voting ability
+
+x1: Salaman Khan is there?
+x2: Akshay Kumar is there?
+x3: Action movie?
+x4: ON netflix?
+
+x1 x2 x3 x4 y
+0  0  0  0  0
+0  0  0  1  1
+0  0  1  0  1
+0  0  1  1  0
+0  1  0  0  0
+0  1  0  1  0 
+0  1  1  0  0
+0  1  1  1  1
+1  0  0  0  0
+1  0  0  1  0
+1  0  1  0  1
+1  0  1  1  0
+1  1  0  0  1
+1  1  0  1  0
+1  1  1  0  1
+1  1  1  1  0
+
+Outputs:-
+
+0, 0, 0, 0
+Expected Output is 0 and Actual Output is  0
+1, 1, 0, 0
+Expected Output is 1 and Actual Output is  0
+1, 1, 1, 0
+Expected Output is 1 and Actual Output is  0
+1, 1, 1, 1
+Expected Output is 0 and Actual Output is  0
+
+
+Coclusion :-
+
+The dataset is non-linear and single percepton can't classifier non-linar data.
