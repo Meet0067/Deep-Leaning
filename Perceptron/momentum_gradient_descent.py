@@ -24,7 +24,7 @@ def grad_w(w,b,x,y):
 
 def do_gradient_descent():
   seconds = time.time()
-  w,b,eta,max_epoch =-5,2,0.05,1000
+  w,b,eta,max_epoch = -6,3,0.1,100
   for i in range(max_epoch):
     dw=0
     db=0
@@ -39,7 +39,7 @@ def do_gradient_descent():
 
 def do_moumentum_grad():
     seconds = time.time()
-    w,b,eta,max_epoch = -5,2,0.05,1000
+    w,b,eta,max_epoch = -6,3,0.1,100
     gama = 0.1
     w_pre,b_pre = 0,0
     for i in range(max_epoch):
