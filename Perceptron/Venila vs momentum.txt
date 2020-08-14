@@ -1,0 +1,28 @@
+Comparision between  Vanilla Gradient Descent and Momentum gradient Descent :
+
+For input:
+w,b,eta,max_epoch = -5,2,0.05,1000
+
+So Output is:
+
+Cost For Vanilla Gradient Descent:  0.40515005063662884
+Seconds =  0.020013809204101562
+ 
+Cost For Momentum Gradient Descent:  0.10809428828776667
+Seconds =  0.023015499114990234
+---------------------------------------------------------
+For input:
+w,b,eta,max_epoch = -2,-2,0.01,100
+
+So Output is:
+
+Cost For Vanilla Gradient Descent:  0.4157294355398708
+Seconds =  0.002984762191772461
+ 
+Cost For Momentum Gradient Descent:  0.12072163151253582
+Seconds =  0.008005142211914062
+------------------------------------------------------------
+Conclusion:
+Momentum based model is comparatively efficient and faster than Vanila Gradient descent.
+
+
